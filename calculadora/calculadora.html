@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css" />
+  </head>
+  <body>
+    <button onclick="abreCalculadora()">Calculadora</button>
+    <div id="calculadora">
+      <h3>Calculadora</h3>
+      <span id="close">&#10008;</span>
+      <input type="text" id="pantalla" value="0" />
+      <div class="grid_container">
+        <!-- Numbers -->
+        <div class="boto number zero">0</div>
+        <div class="boto number one">1</div>
+        <div class="boto number two">2</div>
+        <div class="boto number three">3</div>
+        <div class="boto number four">4</div>
+        <div class="boto number five">5</div>
+        <div class="boto number six">6</div>
+        <div class="boto number seven">7</div>
+        <div class="boto number eight">8</div>
+        <div class="boto number nine">9</div>
+        <!-- Other Buttons -->
+        <div class="boto coma">.</div>
+        <div class="boto signe"><sup>+</sup>/-</div>
+        <div class="boto divideix">/</div>
+        <div class="boto multiplica">X</div>
+        <div class="boto resta">-</div>
+        <div class="boto suma">+</div>
+        <div class="boto clear">C</div>
+        <div class="boto igual">=</div>
+      </div>
+      <!-- Grid container-->
+    </div>
+
+    <script src="calculadora.js"></script>
+  </body>
+</html>
