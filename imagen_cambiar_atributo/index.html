@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cambio Imagen a través de Atributo</title>
+    <meta name="author" content="Cristina Alvarez" />
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      header {
+        text-align: center;
+        padding: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>Cambio atributo para cambiar imagen</p>
+    </header>
+
+    <p>
+      Crea un código tal que al hacer clic en las imágenes con clase "miniatura"
+      se vean grande debajo, donde está la imagen con clase "grande" cambiando
+      atributos
+    </p>
+    <div id="mini">
+      <img
+        class="miniatura"
+        src="https://www.publicdomainpictures.net/pictures/30000/nahled/evening-landscape-13530956185Aw.jpg"
+        width="100"
+      />
+      <img
+        class="miniatura"
+        src="https://www.publicdomainpictures.net/pictures/30000/nahled/paisaje-claro.jpg"
+        width="100"
+      />
+    </div>
+    <img
+      class="grande"
+      src="https://www.publicdomainpictures.net/pictures/30000/nahled/evening-landscape-13530956185Aw.jpg"
+    />
+
+    <script src="app.js"></script>
+  </body>
+</html>
