@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 100px;
+}
+
+div {
+  text-align: center;
+}
+
+.libros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.libroA,
+.libroB,
+.libroC,
+.libroD {
+  margin-bottom: 30px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: black;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.libroA img {
+  background-image: url("https://imagessl5.casadellibro.com/a/l/t5/15/9788466645515.jpg");
+  background-size: cover;
+}
+
+.libroB img {
+  background-image: url("https://imagessl7.casadellibro.com/a/l/t7/57/9788478884957.jpg");
+  background-size: cover;
+}
+
+.libroC img {
+  background-image: url("https://imagessl5.casadellibro.com/a/l/t7/95/9788499891095.jpg");
+  background-size: cover;
+}
+
+.libroD img {
+  background-image: url("https://imagessl6.casadellibro.com/a/l/t7/66/9788413416366.jpg");
+  background-size: cover;
+}
