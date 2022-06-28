@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(./img/picture-gallery-t.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+}
+
+header p {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: black;
+}
+
+.niveles {
+  padding: 50px;
+  text-align: center;
+}
+
+.bot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.botones {
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+}
+.facil {
+  background-color: bisque;
+  color: black;
+}
+
+.medio {
+  background-color: orange;
+  color: black;
+}
+
+.dificil {
+  background-color: red;
+  color: white;
+}

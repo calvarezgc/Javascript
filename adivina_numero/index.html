@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivina el numero</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p>
+        <script>
+          document.write(nombre);
+        </script>
+      </p>
+      <h1>Adivina el número</h1>
+      <h3>Juego que consiste en adivinar un número</h3>
+    </header>
+    <div class="container">
+      <div class="niveles">
+        <h2>Niveles</h2>
+        <p>
+          Elige uno de los 3 modos disponibles y adivina el número en el menor
+          tiempo posible
+        </p>
+        <div class="bot">
+          <button class="botones facil" onclick="adivinar(10)">
+            Facil (1 al 10)
+          </button>
+          <button class="botones medio" onclick="adivinar(100)">
+            Medio (1 al 100)
+          </button>
+          <button class="botones dificil" onclick="adivinar(1000)">
+            Dificil (1 al 1000)
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
